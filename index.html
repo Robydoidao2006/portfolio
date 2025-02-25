@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+    <!-- <script type="text/javascript" src="js/modernizr.custom.js"></script> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Header -->
+    <header id="header">
+      <div class="intro">
+        <div class="container">
+          <div class="row">
+            <div class="intro-text">
+              <h1>Robert Fialho</h1>
+              <br>
+              <h2 class="subtitle">Web Developer</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <div id="nav-wrapper">
+      <!-- Fixes issue where sticky nav jumps -->
+      <div id="nav">
+        <nav class="navbar navbar-custom">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"><i
+                  class="fa fa-bars"></i></button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#tech">Technologies</a> </li>
+                <li> <a href="#portfolio">Portfolio</a> </li>
+                <!-- changed it from #contact to footer in order to display contact and footer section as well-->
+                <li> <a href="#footer">Contact</a> </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+      <div class="container">
+        <div class="section-title text-center center">
+          <h2 id="aboutMe">About Me</h2>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center"><img src="images/personal/profile.jpg" class="img-profile">
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            <div class="about-text">
+              <p>
+                I am Robert, a Front-end Web Developer in Johnson City, TN. I enjoy solving
+                issues to complex problems & turning concepts into reality.
+              </p>
+              <br>
+              <input type="button" value="View Resume" onclick="window.open('./resume.docx');" id="viewResume" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Technologies Section -->
+    <div id="tech">
+      <div class="container-tech">
+        <div class="section-title text-center">
+          <h2>Technologies</h2>
+          <hr>
+        </div>
+        <div class="row row-tech">
+          <div class="col-lg-12">
+            <ul id="ul-tech">
+              <li class="thumbnail"><img src="images/tech/1.png"></li>
+              <li class="thumbnail"><img src="images/tech/2.png"></li>
+              <li class="thumbnail"><img src="images/tech/3.png"></li>
+              <li class="thumbnail"><img src="images/tech/4.png"></li>
+              <li class="thumbnail"><img src="images/tech/5.png"></li>
+              <li class="thumbnail"><img src="images/tech/6.png"></li>
+              <li class="thumbnail"><img src="images/tech/7.png"></li>
+              <li class="thumbnail"><img src="images/tech/8.png"></li>
+              <li class="thumbnail"><img src="images/tech/9.png"></li>
+              <li class="thumbnail"><img src="images/tech/10.png"></li>
+              <li class="thumbnail"><img src="images/tech/11.png"></li>
+              <li class="thumbnail"><img src="images/tech/12.png"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+      <div class="container">
+        <div class="section-title text-center center">
+          <h2>Portfolio</h2>
+          <hr>
+        </div>
+        <div class="categories">
+          <ul class="cat">
+            <li>
+              <ol class="type">
+                <li><a href="#" data-filter="*" class="active">All</a></li>
+                <li><a href="#" data-filter=".game">Games</a></li>
+                <li><a href="#" data-filter=".illustration">Illustration</a></li>
+                <li><a href="#" data-filter=".funtionality">Functionality</a></li>
+                <li><a href="#" data-filter=".comercial">Comercial Project</a></li>
+
+              </ol>
+            </li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+        <div class="row">
+          <div class="portfolio-items ">
+
+            <!-- Project 01 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 comercial text-center">
+              <div class="portfolio-item">
+                <div class="hover-bg"><a href="images/galery/2022-ford-escape.png" title="Burger Project"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Old Research Model</h4>
+                    </div>
+                    <img src="images/galery/2022-ford-escape.png" class="img-responsive" alt="Project Title">
+                  </a>
+                </div>
+              </div>
+              <ul id="ul-project">
+                <li id="li-project"><a href="https://www.foothillfordnc.com/research-2022-ford-edge-pilot-mountain-nc"
+                    target="_blank" class="projectButton"><i class="fa fa-eye" aria-hidden="true"> Project</i></a></li>
+                <li id="li-code"><a href="https://www.foothillfordnc.com/research-2022-ford-edge-pilot-mountain-nc"
+                    target="_blank" class="codeButton"><i class="fa fa-github" aria-hidden="true"> No Code</i></a></li>
+              </ul>
+            </div>
+
+            <!-- Project 02 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 game text-center">
+              <div class="portfolio-item">
+                <div class="hover-bg"><a href="images/galery/clickyGame.jpg" title="Clicky Game"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>clicky Game</h4>
+                    </div>
+                    <img src="images/galery/clickyGame.jpg" class="img-responsive" alt="Project Title">
+                  </a>
+                </div>
+              </div>
+              <ul id="ul-project">
+                <li id="li-project"><a href="https://robydoidao2006.github.io/ClickyGame/" target="_blank"
+                    class="projectButton"><i class="fa fa-eye" aria-hidden="true"> Project</i></a></li>
+                <li id="li-code"><a href="https://github.com/Robydoidao2006/ClickyGame" target="_blank"
+                    class="codeButton"><i class="fa fa-github" aria-hidden="true"> Code</i></a></li>
+              </ul>
+            </div>
+
+            <!-- Project 03 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 game text-center">
+              <div class="portfolio-item">
+                <div class="hover-bg"><a href="images/galery/Psychic.jpg" title="Psychic Game"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Psychic Game</h4>
+                    </div>
+                    <img src="images/galery/Psychic.jpg" class="img-responsive" alt="Project Title">
+                  </a>
+                </div>
+              </div>
+              <ul id="ul-project">
+                <li id="li-project"><a href="https://robydoidao2006.github.io/Psychic-Game/" target="_blank"
+                    class="projectButton"><i class="fa fa-eye" aria-hidden="true"> Project</i></a></li>
+                <li id="li-code"><a href="https://github.com/Robydoidao2006/Psychic-Game" target="_blank"
+                    class="codeButton"><i class="fa fa-github" aria-hidden="true"> Code</i></a></li>
+              </ul>
+            </div>
+
+            <!-- Project 04 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 illustration text-center">
+              <div class="portfolio-item">
+                <div class="hover-bg"><a href="images/galery/circles.jpg" title="Circle Motion"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Canvas Circle-Motion</h4>
+                    </div>
+                    <img src="images/galery/circles.jpg" class="img-responsive" alt="Project Title">
+                  </a>
+                </div>
+              </div>
+              <ul id="ul-project">
+                <li id="li-project"><a href="https://robydoidao2006.github.io/canvas-circle-motion/" target="_blank"
+                    class="projectButton"><i class="fa fa-eye" aria-hidden="true"> Project</i></a></li>
+                <li id="li-code"><a href="https://github.com/Robydoidao2006/canvas-circle-motion" target="_blank"
+                    class="codeButton"><i class="fa fa-github" aria-hidden="true"> Code</i></a></li>
+              </ul>
+            </div>
+
+            <!-- Project 05 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 comercial text-center">
+              <div class="portfolio-item">
+                <div class="hover-bg"><a href="images/galery/ford-ranger-2023.png" title="Gringo.Tech"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>New Research Model</h4>
+                    </div>
+                    <img src="images/galery/ford-ranger-2023.png" class="img-responsive" alt="Project Title">
+                  </a>
+                </div>
+              </div>
+              <ul id="ul-project">
+                <li id="li-project"><a href="https://www.brondesfordtoledo.com/research-2024-ford-ranger-toledo-oh"
+                    target="_blank" class="projectButton"><i class="fa fa-eye" aria-hidden="true"> Project</i></a></li>
+                <li id="li-code"><a href="https://www.brondesfordtoledo.com/research-2024-ford-ranger-toledo-oh"
+                    target="_blank" class="codeButton"><i class="fa fa-github" aria-hidden="true">No Code</i></a></li>
+              </ul>
+            </div>
+
+            <!-- Project 06 -->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 funtionality text-center isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(292px, 214px, 0px);">
+              <div class="portfolio-item">
+                <div class="hover-bg"><a href="images/galery/job.png" title="Job tracker"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Job tracker</h4>
+                    </div>
+                    <img src="images/galery/job.png" class="img-responsive" alt="Project Title">
+                  </a>
+                </div>
+              </div>
+              <ul id="ul-project">
+                <li id="li-project"><a href="https://robydoidao2006.github.io/jobTrackingSystem/" target="_blank"
+                    class="projectButton"><i class="fa fa-eye" aria-hidden="true"> Project</i></a></li>
+                <li id="li-code"><a href="https://github.com/Robydoidao2006/jobTrackingSystem" target="_blank"
+                    class="codeButton"><i class="fa fa-github" aria-hidden="true"> Code</i></a></li>
+              </ul>
+            </div>
+
+            <!-- Project 07 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 funtionality text-center isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(876px, 214px, 0px);">
+              <div class="portfolio-item">
+                <div class="hover-bg"><a href="images/galery/API.png" title="Flickr API"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Flickr API</h4>
+                    </div>
+                    <img src="images/galery/API.png" class="img-responsive" alt="Project Title">
+                  </a>
+                </div>
+              </div>
+              <ul id="ul-project">
+                <li id="li-project"><a href="https://robydoidao2006.github.io/api/" target="_blank"
+                    class="projectButton"><i class="fa fa-eye" aria-hidden="true"> Project</i></a></li>
+                <li id="li-code"><a href="https://github.com/Robydoidao2006/reactENS" target="_blank"
+                    class="codeButton"><i class="fa fa-github" aria-hidden="true"> Code</i></a></li>
+              </ul>
+            </div>
+
+            <!-- Project 08 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 comercial text-center">
+              <div class="portfolio-item">
+                <div class="hover-bg"><a href="images/galery/electric-research.png" title="ENS project"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>EV Research</h4>
+                    </div>
+                    <img src="images/galery/electric-research.png" class="img-responsive" alt="Project Title">
+                  </a>
+                </div>
+              </div>
+              <ul id="ul-project">
+                <li id="li-project"><a href="https://www.hyundaitn.com/electric-vehicle-hyundai-research-bristol-tn/"
+                    target="_blank" class="projectButton"><i class="fa fa-eye" aria-hidden="true"> Project</i></a></li>
+                <li id="li-code"><a href="https://www.hyundaitn.com/electric-vehicle-hyundai-research-bristol-tn/"
+                    target="_blank" class="codeButton"><i class="fa fa-github" aria-hidden="true">No Code</i></a></li>
+              </ul>
+            </div>
+
+            <!-- Project 09 -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="text-center">
+      <div class="container">
+        <div class="section-title center">
+          <h2>Get In Touch</h2>
+          <hr>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"
+                required></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+            <div id="success"></div>
+            <button type="submit" class="btn btn-default btn-lg">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div id="social-div">
+      <ul id="social-ul ">
+        <li id="social-li"><a href="https://www.facebook.com/robert.fialho.5?ref=bookmarks" target="_blank"
+            id="social-a"><i class="fa fa-facebook-f"></i></a></li>
+        <li id="social-li"><a href="https://www.youtube.com/channel/UCNfSIb8Aj_DMWZxstZ6toCA?view_as=subscriber"
+            target="_blank" id="social-a"><i class="fa fa-youtube"></i></a></li>
+        <li id="social-li"><a href="https://twitter.com/GringoRoby" target="_blank" id="social-a"><i
+              class="fa fa-twitter"></i></a></li>
+        <li id="social-li"><a href="https://github.com/Robydoidao2006" target="_blank" id="social-a"><i
+              class="fa fa-github-alt"></i></a></li>
+        <li id="social-li"><a href="https://www.linkedin.com/in/robert-fialho/" target="_blank" id="social-a"><i
+              class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer">
+      <p>Robert's Portfolio. All rights reserved &copy; 2018.</p>
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+
+</html>
