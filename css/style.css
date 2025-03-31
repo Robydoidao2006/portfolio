@@ -97,7 +97,7 @@ hr {
 }
 .navbar-custom { 
 	margin-bottom: 0;
-	background-color: #f6f6f6;
+	background-color: #05141f;
 	border-radius: 0px;
 	padding: 10px 0;
 	border-bottom: 2px solid #fff;
@@ -496,7 +496,7 @@ label {
 
 #social-div{
 	text-align: center;
-	background-image: linear-gradient(to bottom, #f6f6f6, #f6f6f6 50%, #222 50%, #222);
+	background-image: linear-gradient(to bottom, #f6f6f6, #f6f6f6 50%, #05141f 50%, #05141f);
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 10px 0px 5px 0px;
@@ -570,7 +570,7 @@ label {
 /***********************************/
 
 #footer {
-	background: #222;
+	background: #05141f;
 	color: #fff;
 	padding: 10px 0 10px 0;
 	font-size: 11px;
